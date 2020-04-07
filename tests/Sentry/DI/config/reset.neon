@@ -1,0 +1,8 @@
+php:
+	date.timezone: Europe/Prague
+
+extensions:
+	sentry: GrandMedia\Sentry\DI\SentryExtension
+
+sentry:
+	dsn: 'https://11111111111111111111111111111111@test.cz/1'

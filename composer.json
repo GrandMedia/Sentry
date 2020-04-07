@@ -1,0 +1,38 @@
+{
+	"name": "grand-media/sentry",
+	"description": "GrandMedia Sentry",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Grand Media s.r.o.",
+			"email": "vesely@grandmedia.cz",
+			"homepage": "https://www.grandmedia.cz"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/GrandMedia/Sentry/issues"
+	},
+	"require": {
+		"php": ">=7.1",
+		"nette/di": "^3.0",
+		"sentry/sdk": "^2.1"
+	},
+	"require-dev": {
+		"grand-media/coding-standard": "^2.0",
+		"nette/bootstrap": "^3.0",
+		"nette/reflection": "^2.4",
+		"nette/tester": "^2.0",
+		"phpstan/phpstan": "^0.12",
+		"mockery/mockery": "^1.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"GrandMedia\\Sentry\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"GrandMediaTests\\": "tests/"
+		}
+	}
+}
