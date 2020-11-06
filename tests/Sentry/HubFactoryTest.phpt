@@ -19,7 +19,7 @@ final class HubFactoryTest extends \Tester\TestCase
 	{
 		$hub = HubFactory::create(self::DSN);
 
-		Assert::same(self::DSN, (string) $hub->getClient()->getOptions()->getDsn(false));
+		Assert::same(self::DSN, (string) $hub->getClient()->getOptions()->getDsn());
 	}
 
 }
